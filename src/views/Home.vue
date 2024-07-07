@@ -242,8 +242,8 @@ const interests = ref([
     </div>
 
     <div class="flex my-5">
-      <div class="mb-2 flex items-center">
-        <a href="https://www.linkedin.com/in/abrahaatsbeha/" target="_blank">
+      <div class="mb-2 space-x-1 flex items-center">
+        <a class="w-fit" href="https://www.linkedin.com/in/abrahaatsbeha/" target="_blank">
           <button class="sociallink">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -259,7 +259,7 @@ const interests = ref([
             </svg>
           </button>
         </a>
-        <a href="https://www.instagram.com/tgryeth_student/" target="_blank">
+        <a class="w-fit" href="https://www.instagram.com/tgryeth_student/" target="_blank">
           <button class="sociallink">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -275,7 +275,7 @@ const interests = ref([
             </svg>
           </button>
         </a>
-        <a href="https://github.com/theplaceincan" target="_blank">
+        <a class="w-fit" href="https://github.com/theplaceincan" target="_blank">
           <button class="sociallink">
             <svg
               xmlns="http://www.w3.org/2000/svg"

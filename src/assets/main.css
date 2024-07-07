@@ -10,3 +10,29 @@ input {
 textarea {
   outline: none;
 }
+
+
+@media (min-width: 806px) {
+  .isMobile {
+      display: none;
+  }
+}
+
+@media (max-width: 805px) {
+  .isPC {
+      display: none;
+  }
+}
+
+.sociallink {
+  padding: 2px;
+  margin: 5px;
+  border: 2px solid rgb(212, 212, 212);
+  border-radius: 7px;
+  fill: rgb(156, 156, 156);
+  transition: fill 0.2s ease;
+}
+
+.sociallink:hover {
+  fill: rgb(0, 0, 0);
+}

@@ -27,7 +27,7 @@ textarea {
 .sociallink {
   padding: 2px;
   margin: 5px;
-  border: 2px solid rgb(212, 212, 212);
+  border: 1px solid rgb(212, 212, 212);
   border-radius: 7px;
   fill: rgb(156, 156, 156);
   transition: fill 0.2s ease;

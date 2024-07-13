@@ -1,11 +1,17 @@
 <script setup>
 import { ref } from "vue";
 
-const uniClassCards = ref([{ name: "CS 135" }, { name: "PHIL 114 " }]);
+const uniClassCards = ref([
+  { name: "CS 135" }, 
+  { name: "CS 202" },
+  { name: "PHIL 114" },
+  { name: "PHIL 422"}
+]);
 
 const uniSkills = ref([
   { name: "C++" },
-  { name: "Symbolic Logic: LFOL & LPL " },
+  { name: "Symbolic Logic" },
+  { name: "Advanced Logic" },
   { name: "Computer Science" },
 ]);
 
@@ -28,7 +34,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Web Development",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259300190083485788/208-2082229_html-code-coding-language-html-code-icon-png-removebg-preview.png?ex=668b2e31&is=6689dcb1&hm=3bfa7c74408d7f88732a3e490d97f18fdc9e272774ac1f9c47006c4f50b1a7ce&=&format=webp&quality=lossless",
+        logo: "/src/assets/webdevlogo.webp",
       },
       {
         skill_name: "Tailwind CSS",
@@ -54,7 +60,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Web Development",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259300190083485788/208-2082229_html-code-coding-language-html-code-icon-png-removebg-preview.png?ex=668b2e31&is=6689dcb1&hm=3bfa7c74408d7f88732a3e490d97f18fdc9e272774ac1f9c47006c4f50b1a7ce&=&format=webp&quality=lossless",
+        logo: "/src/assets/webdevlogo.webp",
       },
       {
         skill_name: "Tailwind CSS",
@@ -62,7 +68,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Team Work",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259301897458946089/pngtree-colorful-teamwork-logo-png-image_4127029-removebg-preview.png?ex=668b2fc9&is=6689de49&hm=fcdabeb9a1ba5b0a369c4603705e6402e9f4e20dab8fb3764818dd5d40635f6b&=&format=webp&quality=lossless",
+        logo: "/src/assets/teamwork.webp",
       },
       {
         skill_name: "Volunteering",
@@ -92,7 +98,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Web Development",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259300190083485788/208-2082229_html-code-coding-language-html-code-icon-png-removebg-preview.png?ex=668b2e31&is=6689dcb1&hm=3bfa7c74408d7f88732a3e490d97f18fdc9e272774ac1f9c47006c4f50b1a7ce&=&format=webp&quality=lossless",
+        logo: "/src/assets/webdevlogo.webp",
       },
       {
         skill_name: "Tailwind CSS",
@@ -118,7 +124,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Web Development",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259300190083485788/208-2082229_html-code-coding-language-html-code-icon-png-removebg-preview.png?ex=668b2e31&is=6689dcb1&hm=3bfa7c74408d7f88732a3e490d97f18fdc9e272774ac1f9c47006c4f50b1a7ce&=&format=webp&quality=lossless",
+        logo: "/src/assets/webdevlogo.webp",
       },
       {
         skill_name: "Tailwind CSS",
@@ -144,7 +150,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Web Development",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259300190083485788/208-2082229_html-code-coding-language-html-code-icon-png-removebg-preview.png?ex=668b2e31&is=6689dcb1&hm=3bfa7c74408d7f88732a3e490d97f18fdc9e272774ac1f9c47006c4f50b1a7ce&=&format=webp&quality=lossless",
+        logo: "/src/assets/webdevlogo.webp",
       },
       {
         skill_name: "Tailwind CSS",
@@ -152,7 +158,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Team Work",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259301897458946089/pngtree-colorful-teamwork-logo-png-image_4127029-removebg-preview.png?ex=668b2fc9&is=6689de49&hm=fcdabeb9a1ba5b0a369c4603705e6402e9f4e20dab8fb3764818dd5d40635f6b&=&format=webp&quality=lossless",
+        logo: "/src/assets/teamwork.webp",
       },
       {
         skill_name: "Volunteering",
@@ -178,7 +184,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Web Development",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259300190083485788/208-2082229_html-code-coding-language-html-code-icon-png-removebg-preview.png?ex=668b2e31&is=6689dcb1&hm=3bfa7c74408d7f88732a3e490d97f18fdc9e272774ac1f9c47006c4f50b1a7ce&=&format=webp&quality=lossless",
+        logo: "/src/assets/webdevlogo.webp",
       },
       {
         skill_name: "Tailwind CSS",
@@ -203,7 +209,7 @@ const projectArr = ref([
       },
       {
         skill_name: "Web Development",
-        logo: "https://media.discordapp.net/attachments/1201662358171435030/1259300190083485788/208-2082229_html-code-coding-language-html-code-icon-png-removebg-preview.png?ex=668b2e31&is=6689dcb1&hm=3bfa7c74408d7f88732a3e490d97f18fdc9e272774ac1f9c47006c4f50b1a7ce&=&format=webp&quality=lossless",
+        logo: "/src/assets/webdevlogo.webp",
       },
       {
         skill_name: "Vuetify CSS",
@@ -426,8 +432,8 @@ const interests = ref([
       </div>
     </div>
     <div class="mt-5 flex flex-col items-center justify-center text-center">
-      <p class="font-semibold">Fun Fact</p>
-      <p class="text-sm text-zinc-500">
+      <p class="text-lg font-semibold mb-5">Fun Fact</p>
+      <p class="text-zinc-500">
         Abraha Atsbeha is the name of one of Ethiopia's oldest churches; completely rock-hewn. It was
         build by Abraha and Atsbeha, who were brothers that both co-ruled the
         Aksumite Kingdom: a powerful East African & Southern Arabian trading

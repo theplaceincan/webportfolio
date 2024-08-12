@@ -4,14 +4,14 @@ import { ref } from "vue";
 const uniClassCards = ref([
   { name: "CS 135" }, 
   { name: "CS 202" },
+  { name: "CS 218"},
   { name: "PHIL 114" },
-  { name: "PHIL 422"}
+  { name: "PHIL 422"},
 ]);
 
 const uniSkills = ref([
   { name: "C++" },
-  { name: "Symbolic Logic" },
-  { name: "Advanced Logic" },
+  { name: "Symbolic & Advanced Logic" },
   { name: "Computer Science" },
 ]);
 
